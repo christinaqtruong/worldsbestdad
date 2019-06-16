@@ -1,0 +1,16 @@
+*{
+    margin: 10px auto;
+    text-align: center;
+    line-height: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#card-img-top{
+    display: flex;
+    margin: 10px auto;
+    max-width: 70%;
+}
+
+#animate{
+    
+}
