@@ -30,9 +30,28 @@
 
 h5, p{
     color: black;
+    font-size: 1.5em;
+}
+
+#white{
+    color:white;
+}
+
+#background{
+    background-color:white;
+    color: black;
 }
 
 .carousel-caption{
-    width: 400px;
+    width: 700px;
+}
+
+#me{
+    color: white;
+    font-size: 5em;
+}
+
+#bigger{
+    font-size: 3em;
 }
   
