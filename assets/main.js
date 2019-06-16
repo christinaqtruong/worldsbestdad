@@ -17,9 +17,8 @@ $('#clickme').on('click', function(){
 
 $('.cardContainer').hide();
 
-var gameDisplay = $('<div class="gameDisplay"></div>');
-gameDisplay.text("Happy Father's Day, Dad!");
-$('.gameDisplay').append(gameDisplay);
+printWarning(".gameDisplay","Happy father's day Dad!", 0, 80);
 
-gameDisplay.attr('id="animate"')
+$("#indicators").attr("display","show");
+
 })

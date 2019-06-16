@@ -8,9 +8,31 @@
 #card-img-top{
     display: flex;
     margin: 10px auto;
-    max-width: 70%;
+    max-width: 100%;
 }
 
-#animate{
-    
+#animate {
+    animation: letter-animation 10s linear forwards;
+    animation-delay: 4.25s;
 }
+
+.gameDisplay{
+    font-size: 3em;
+    color: green;
+}
+
+#indicators{
+    max-width: 80%;
+    margin: 0 auto;
+    height: auto;
+  
+}
+
+h5, p{
+    color: black;
+}
+
+.carousel-caption{
+    width: 400px;
+}
+  
