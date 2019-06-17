@@ -5,53 +5,30 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-#card-img-top{
-    display: flex;
-    margin: 10px auto;
-    max-width: 100%;
-}
-
-#animate {
-    animation: letter-animation 10s linear forwards;
-    animation-delay: 4.25s;
-}
-
 .gameDisplay{
     font-size: 3em;
     color: green;
 }
 
 #indicators{
-    max-width: 80%;
     margin: 0 auto;
     height: auto;
+    display: flex;
+    margin: 10px auto;
+    max-width: 100%;
   
 }
 
-h5, p{
-    color: black;
-    font-size: 1.5em;
+#clickme:hover{
+    color:green;
 }
 
-#white{
-    color:white;
+.button{
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
-#background{
-    background-color:white;
-    color: black;
+#container{
+    vertical-align: center;
+    margin: 0 auto;
 }
-
-.carousel-caption{
-    width: 700px;
-}
-
-#me{
-    color: white;
-    font-size: 5em;
-}
-
-#bigger{
-    font-size: 3em;
-}
-  
